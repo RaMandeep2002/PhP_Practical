@@ -21,7 +21,7 @@
         <?php
         if (isset($_POST['submit'])) {
             $num = $_POST['number'];
-
+            //here i use function for Fibonacci
             function Fibonacci($num)
             {
 
@@ -38,7 +38,6 @@
                 }
             }
 
-            // Driver Code
             Fibonacci($num);
         }
         ?>
