@@ -23,7 +23,7 @@
             $number = $_POST['num'];
 
             echo "Factorial number of $number :- <br><br>";
-            for ($i = 0; $i <= $number; $i++) {
+            for ($i = 1; $i <= $number; $i++) {
                 $fact = $fact * $i;
             }
             echo $fact . "<br>";
