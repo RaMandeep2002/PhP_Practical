@@ -37,7 +37,6 @@
                     $counter = $counter + 1;
                 }
             }
-
             Fibonacci($num);
         }
         ?>
