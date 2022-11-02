@@ -29,14 +29,15 @@
         if (isset($_POST['submit'])) {
             $pi = 3.14;
             $base = $_POST['num1'];
+            $lenght = $_POST['num1'];
             $height = $_POST['num2'];
             $width = $_POST['num2'];
             $shapes = $_POST['area'];
 
             switch ($shapes) {
                 case 'rectangle':
-                    $area_of_reatangle = (int)$height * (int)$width;
-                    echo "Your lenght is " . (int)$height . " and width is " . (int)$widht;
+                    $area_of_reatangle = (int)$lenght * (int)$width;
+                    echo "Your lenght is " . (int)$lenght . " and width is " . (int)$width . "<br>";
                     echo "The area of rectangle is: - " . $area_of_reatangle;
                     break;
                 case 'triangle':
