@@ -35,8 +35,8 @@
 
             switch ($shapes) {
                 case 'rectangle':
-                    $area_of_reatangle = (int)$width * (int)$width;
-                    echo "Your lenght is " . (int)$width . " and width is " . (int)$widht;
+                    $area_of_reatangle = (int)$height * (int)$width;
+                    echo "Your lenght is " . (int)$height . " and width is " . (int)$widht;
                     echo "The area of rectangle is: - " . $area_of_reatangle;
                     break;
                 case 'triangle':
