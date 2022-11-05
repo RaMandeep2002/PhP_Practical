@@ -16,7 +16,6 @@
         </form>
 
         <?php
-        // echo "raman";
         if (isset($_POST['submit'])) {
             $string = $_POST['string'];
 
@@ -24,7 +23,6 @@
             {
                 $revString = strrev($string);
 
-                // echo $revString;
                 if ($revString == $string) {
                     echo $string . " is a Palindrome.\n";
                 } else {
