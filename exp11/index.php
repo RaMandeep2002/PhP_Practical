@@ -17,12 +17,6 @@ for ($row = 0; $row < $p; $row++) {
         echo " " . $b[$row][$col];
     echo "<br/>";
 }
-// echo "the transpose for the first matrix is:" . "<br/>";
-// for ($row = 0; $row < $m; $row++) {
-//     for ($col = 0; $col < $n; $col++)
-//         echo " " . $a[$col][$row];
-//     echo "<br/>";
-// }
 echo "the addition of matrices is:" . "<br/>";
 for ($row = 0; $row < 3; $row++) {
     for ($col = 0; $col < 3; $col++)
