@@ -9,9 +9,12 @@
     <center>
         <h1>Check whether a number is in a given range using functions.</h1>
         <form action="" method="POST">
-            <input type="text" name="num1">
-            <input type="text" name="num2">
-            <input type="text" name="num3">
+            <label for="num1">Enter the First number: - </label>
+            <input type="text" name="num1"><br><br>
+            <label for="num1">Enter the second number: - </label>
+            <input type="text" name="num2"><br><br>
+            <label for="num1">Enter the Third number: - </label>
+            <input type="text" name="num3"><br><br>
             <input type="submit" value="check" name="submit">
         </form>
 
