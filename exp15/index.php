@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title>Program 15</title>
 </head>
 
 <body>
     <center>
-        <h1>Program1</h1>
+        <h1>Check whether a number is in a given range using functions.</h1>
         <form action="" method="POST">
             <input type="text" name="num1">
             <input type="text" name="num2">
